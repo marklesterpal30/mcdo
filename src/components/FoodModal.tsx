@@ -29,6 +29,7 @@ const FoodModal = ({ isOpen, onOpen, onClose, food }: any) => {
 			quantity: foodCount,
 		});
 		onClose();
+		setFoodCount(0);
 	};
 
 	const handleClose = () => {
